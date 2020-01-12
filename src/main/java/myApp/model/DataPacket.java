@@ -23,7 +23,7 @@ public class DataPacket {
     }
 
     private static Connection connectionDb;
-    private static final int buffSize = 3;
+    private static final int buffSize = 50000;
     private static final Logger logger = LoggerFactory.getLogger(DataPacket.class);
 
     public static Connection getConnectionDb() { return connectionDb; }
